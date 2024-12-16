@@ -1,4 +1,4 @@
-#define BLYNK_TEMPLATE_ID "TMPL3WnrYzhiM"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "fatigueanalysis"
 
 #define BLYNK_PRINT Serial
@@ -7,9 +7,9 @@
 #include <DHT.h>
 
 
-char auth[] = "knWC_8TSEoG6RRJWBX905QPQsOvWWYZq";
+char auth[] = "";
 char ssid[] = "TEJASWI";
-char pass[] = "12345678"; 
+char pass[] = ""; 
 
 DHT dht(D3, DHT11);  // D4 DHT11
 BlynkTimer timer;
